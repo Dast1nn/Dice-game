@@ -14,10 +14,10 @@ const render = () => {
     container.innerHTML = "";
     container.insertAdjacentHTML("afterbegin", `
         <svg class="dice dice-red">
-            <use href="/Dice_game/sprites.svg#dice-${player1}-icon"></use>
+            <use href="sprites.svg#dice-${player1}-icon"></use>
         </svg>
         <svg class="dice dice-blue">
-            <use href="/Dice_game/sprites.svg#dice-${player2}-icon"></use>
+            <use href="sprites.svg#dice-${player2}-icon"></use>
         </svg>
         `)
     if (player1 === player2) {
